@@ -6,11 +6,13 @@ namespace _06._Truck_Tour
 {
     class TruckTour
     {
+        //TODO Fix Time LIMIT on Test 2
         static void Main(string[] args)
         {
             var n = int.Parse(Console.ReadLine());
 
-            var queue = new Queue<int>();
+            var amountOfFlue = new Queue<int>();
+            var distance = new Queue<int>();
 
             for (int i = 0; i < n; i++)
             {
@@ -18,16 +20,40 @@ namespace _06._Truck_Tour
                     .Select(int.Parse)
                     .ToArray();
 
-                var petrolAmount = input[0];
-                var distance = input[1];
+                amountOfFlue.Enqueue(input[0]);
+                distance.Enqueue(input[1]);
+            }
 
-                if(petrolAmount >= distance)
+            for (int i = 0; i < n; i++)
+            {
+                var workOnTheQueueFlue = new Queue<int>(amountOfFlue);
+                var workOnTheQueueDistance = new Queue<int>(distance);
+
+                var flue = workOnTheQueueFlue.Dequeue() - workOnTheQueueDistance.Dequeue();
+
+                while (workOnTheQueueFlue.Count > 0)
                 {
-                    queue.Enqueue(i);
+                    if (flue >= 0)
+                    {
+                        flue += workOnTheQueueFlue.Dequeue();
+                        flue -= workOnTheQueueDistance.Dequeue();
+                    }
+                    else
+                    {
+                        break;
+                    }
                 }
 
+                if(flue >= 0)
+                {
+                    Console.WriteLine(i);
+                    return;
+                }
+
+                amountOfFlue.Enqueue(amountOfFlue.Dequeue());
+                distance.Enqueue(distance.Dequeue());
+
             }
-            Console.WriteLine(queue.Peek());
         }
     }
 }
