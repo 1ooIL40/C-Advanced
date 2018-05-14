@@ -9,21 +9,55 @@ namespace _07._Balanced_Parenthesis
         {
             var input = Console.ReadLine();
 
-            //TODO LOGIK FOR ADD IN QUEUE AND ANOTHER QUEUE
-            var queue = new Queue<char>(input.Substring(0, input.Length / 2));
-            var stack = new Stack<char>(input.Substring(input.Length / 2)); //have to be queue
+            //TODO Fixt the INTERVAL seatch between  the parentheses; 75/100 now
+            var openBrackets = new Stack<char>();
+            var closedBrackets = new Queue<char>();
 
-            while (queue.Count > 0)
+            foreach (var bracket in input)
             {
-                var yesOrNo = CompareTheQuotes(queue.Dequeue(),stack.Pop());
-
-                if (!yesOrNo)
+                switch (bracket)
+                {
+                    case '(':
+                        openBrackets.Push('(');
+                        break;
+                    case '{':
+                        openBrackets.Push('{');
+                        break;
+                    case '[':
+                        openBrackets.Push('[');
+                        break;
+                    case ')':
+                        closedBrackets.Enqueue(')');
+                        break;
+                    case '}':
+                        closedBrackets.Enqueue('}');
+                        break;
+                    case ']':
+                        closedBrackets.Enqueue(']');
+                        break;
+                }
+                if (openBrackets.Count != 0 && closedBrackets.Count != 0)
+                {
+                    if (CompareTheQuotes(openBrackets.Peek(), closedBrackets.Peek()))
+                    {
+                        openBrackets.Pop();
+                        closedBrackets.Dequeue();
+                    }
+                }
+            }
+            while(openBrackets.Count != 0 && closedBrackets.Count != 0)
+            {
+                if (CompareTheQuotes(openBrackets.Peek(), closedBrackets.Peek()))
+                {
+                    openBrackets.Pop();
+                    closedBrackets.Dequeue();
+                }
+                else
                 {
                     Console.WriteLine("NO");
                     return;
                 }
             }
-
             Console.WriteLine("YES");
         }
 
