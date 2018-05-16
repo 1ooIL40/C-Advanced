@@ -9,7 +9,6 @@ namespace _07._Balanced_Parenthesis
         {
             var input = Console.ReadLine();
 
-            //TODO Fixt the INTERVAL seatch between  the parentheses; 75/100 now
             var openBrackets = new Stack<char>();
             var closedBrackets = new Queue<char>();
 
