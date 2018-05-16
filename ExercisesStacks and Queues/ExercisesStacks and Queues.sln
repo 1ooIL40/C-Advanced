@@ -19,6 +19,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Balanced Parenthesis", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Recursive Fibonacci", "08. Recursive Fibonacci\08. Recursive Fibonacci.csproj", "{614E231B-D15A-40C9-A1BA-AC00E3C4195B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Stack Fibonacci", "09. Stack Fibonacci\09. Stack Fibonacci.csproj", "{623FC4A3-985B-4656-9972-0BC05DC1C24A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Simple Text Editor", "10. Simple Text Editor\10. Simple Text Editor.csproj", "{AD5B3118-9E21-45A6-B8BF-A09B552850B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{614E231B-D15A-40C9-A1BA-AC00E3C4195B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{614E231B-D15A-40C9-A1BA-AC00E3C4195B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{614E231B-D15A-40C9-A1BA-AC00E3C4195B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623FC4A3-985B-4656-9972-0BC05DC1C24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623FC4A3-985B-4656-9972-0BC05DC1C24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623FC4A3-985B-4656-9972-0BC05DC1C24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623FC4A3-985B-4656-9972-0BC05DC1C24A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5B3118-9E21-45A6-B8BF-A09B552850B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5B3118-9E21-45A6-B8BF-A09B552850B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5B3118-9E21-45A6-B8BF-A09B552850B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5B3118-9E21-45A6-B8BF-A09B552850B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
