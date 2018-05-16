@@ -45,20 +45,16 @@ namespace _07._Balanced_Parenthesis
                     }
                 }
             }
-            while(openBrackets.Count != 0 && closedBrackets.Count != 0)
+
+            if (openBrackets.Count == 0 && closedBrackets.Count == 0)
             {
-                if (CompareTheQuotes(openBrackets.Peek(), closedBrackets.Peek()))
-                {
-                    openBrackets.Pop();
-                    closedBrackets.Dequeue();
-                }
-                else
-                {
-                    Console.WriteLine("NO");
-                    return;
-                }
+                Console.WriteLine("YES");
             }
-            Console.WriteLine("YES");
+            else
+            {
+                Console.WriteLine("NO");
+                return;
+            }
         }
 
         public static bool CompareTheQuotes(char first, char second)
