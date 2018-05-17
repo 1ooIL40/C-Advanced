@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Truck Tour", "06. Truck
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Balanced Parenthesis", "07. Balanced Parenthesis\07. Balanced Parenthesis.csproj", "{55637DE2-C06E-47E4-A572-FB666A16E99C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Recursive Fibonacci", "08. Recursive Fibonacci\08. Recursive Fibonacci.csproj", "{614E231B-D15A-40C9-A1BA-AC00E3C4195B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Recursive Fibonacci", "08. Recursive Fibonacci\08. Recursive Fibonacci.csproj", "{614E231B-D15A-40C9-A1BA-AC00E3C4195B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Stack Fibonacci", "09. Stack Fibonacci\09. Stack Fibonacci.csproj", "{623FC4A3-985B-4656-9972-0BC05DC1C24A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09. Stack Fibonacci", "09. Stack Fibonacci\09. Stack Fibonacci.csproj", "{623FC4A3-985B-4656-9972-0BC05DC1C24A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Simple Text Editor", "10. Simple Text Editor\10. Simple Text Editor.csproj", "{AD5B3118-9E21-45A6-B8BF-A09B552850B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Simple Text Editor", "10. Simple Text Editor\10. Simple Text Editor.csproj", "{AD5B3118-9E21-45A6-B8BF-A09B552850B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Poisonous Plants", "11. Poisonous Plants\11. Poisonous Plants.csproj", "{925436C7-BD02-4F99-9059-07DDEB72C124}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{AD5B3118-9E21-45A6-B8BF-A09B552850B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD5B3118-9E21-45A6-B8BF-A09B552850B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD5B3118-9E21-45A6-B8BF-A09B552850B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925436C7-BD02-4F99-9059-07DDEB72C124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925436C7-BD02-4F99-9059-07DDEB72C124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925436C7-BD02-4F99-9059-07DDEB72C124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925436C7-BD02-4F99-9059-07DDEB72C124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
