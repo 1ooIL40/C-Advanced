@@ -33,6 +33,26 @@ namespace _2._Square_With_Maximum_Sum
             }
 
             //TODO LOGIC for BiggestSubMatrix
+
+            for (int subRow = 0; subRow < rows - 1; subRow++)
+            {
+                for (int subColmn = 0; subColmn < columns -1; subColmn++)
+                {
+                    var currentSum = matrix[subRow, subColmn] + matrix[subRow, subColmn + 1] + 
+                        matrix[subRow + 1, subColmn] + matrix[subRow + 1, subColmn + 1];
+
+                    if(sum < currentSum)
+                    {
+                        sum = currentSum;
+                        maxRowIndex = subRow;
+                        maxColdIndex = subColmn;
+                    }
+                }
+            }
+
+            Console.WriteLine($"{matrix[maxRowIndex, maxColdIndex]} {matrix[maxRowIndex, maxColdIndex + 1]}");
+            Console.WriteLine($"{matrix[maxRowIndex + 1, maxColdIndex]} {matrix[maxRowIndex + 1, maxColdIndex + 1]}");
+            Console.WriteLine(sum);
         }
     }
 }
