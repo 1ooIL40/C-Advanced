@@ -32,8 +32,6 @@ namespace _2._Square_With_Maximum_Sum
                 }
             }
 
-            //TODO LOGIC for BiggestSubMatrix
-
             for (int subRow = 0; subRow < rows - 1; subRow++)
             {
                 for (int subColmn = 0; subColmn < columns -1; subColmn++)

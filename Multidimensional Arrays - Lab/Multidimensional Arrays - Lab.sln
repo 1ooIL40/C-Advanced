@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Sum Matrix Elements", "1. Sum Matrix Elements\1. Sum Matrix Elements.csproj", "{5CA08FD4-C65D-4956-BA58-F40368FB5002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Sum Matrix Elements", "1. Sum Matrix Elements\1. Sum Matrix Elements.csproj", "{5CA08FD4-C65D-4956-BA58-F40368FB5002}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Square With Maximum Sum", "2. Square With Maximum Sum\2. Square With Maximum Sum.csproj", "{A398E0CC-CBDC-4E08-BD34-751041E7B497}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Square With Maximum Sum", "2. Square With Maximum Sum\2. Square With Maximum Sum.csproj", "{A398E0CC-CBDC-4E08-BD34-751041E7B497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Group Numbers", "3. Group Numbers\3. Group Numbers.csproj", "{5BCD269C-E8DE-4923-A283-C4D5D30E3BAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A398E0CC-CBDC-4E08-BD34-751041E7B497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A398E0CC-CBDC-4E08-BD34-751041E7B497}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A398E0CC-CBDC-4E08-BD34-751041E7B497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCD269C-E8DE-4923-A283-C4D5D30E3BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCD269C-E8DE-4923-A283-C4D5D30E3BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCD269C-E8DE-4923-A283-C4D5D30E3BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCD269C-E8DE-4923-A283-C4D5D30E3BAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
