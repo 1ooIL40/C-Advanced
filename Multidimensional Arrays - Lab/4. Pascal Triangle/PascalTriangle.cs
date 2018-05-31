@@ -8,13 +8,13 @@ namespace _4._Pascal_Triangle
         {
             var triangleHeight = int.Parse(Console.ReadLine());
 
-            int[][] jeggedTriangleArray = new int[triangleHeight][];
+            long[][] jeggedTriangleArray = new long[triangleHeight][];
 
             for (int triangleRows = 0; triangleRows < jeggedTriangleArray.Length; triangleRows++)
             {
                 for (int triangleColumns = 0; triangleColumns <= triangleRows; triangleColumns++)
                 {
-                    jeggedTriangleArray[triangleRows] = new int[triangleColumns + 1];
+                    jeggedTriangleArray[triangleRows] = new long[triangleColumns + 1];
                 }
             }
 
