@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Matrix of Palindromes", "01. Matrix of Palindromes\01. Matrix of Palindromes.csproj", "{E8A16E04-2DE6-4316-8EBC-4370E7AB4686}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Matrix of Palindromes", "01. Matrix of Palindromes\01. Matrix of Palindromes.csproj", "{E8A16E04-2DE6-4316-8EBC-4370E7AB4686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Diagonal Difference", "02. Diagonal Difference\02. Diagonal Difference.csproj", "{C6835ECE-800B-4686-9EE0-0C42BF9CCB3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Diagonal Difference", "02. Diagonal Difference\02. Diagonal Difference.csproj", "{C6835ECE-800B-4686-9EE0-0C42BF9CCB3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Squares in Matrix", "03. Squares in Matrix\03. Squares in Matrix.csproj", "{7CD4F6F7-717A-4973-82CB-90C09AE0D22B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C6835ECE-800B-4686-9EE0-0C42BF9CCB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6835ECE-800B-4686-9EE0-0C42BF9CCB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6835ECE-800B-4686-9EE0-0C42BF9CCB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD4F6F7-717A-4973-82CB-90C09AE0D22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD4F6F7-717A-4973-82CB-90C09AE0D22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD4F6F7-717A-4973-82CB-90C09AE0D22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD4F6F7-717A-4973-82CB-90C09AE0D22B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
